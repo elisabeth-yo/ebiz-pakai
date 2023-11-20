@@ -97,6 +97,9 @@
                         </div>
                     </div>
                     <div class="card">
+                        <div class="card-header">
+                            <h5>Supplier</h5>  
+                        </div>
                         <div class="card-body table-responsive">
                             <table class="table table-bordered text-nowrap">
                                 <thead>
@@ -135,6 +138,9 @@
                         </div>
                     </div>
                     <div class="card">
+                        <div class="card-header">
+                            <h5>Benefit</h5>  
+                        </div>
                         <div class="card-body table-responsive">
                             <table class="table table-bordered text-nowrap">
                                 <thead>

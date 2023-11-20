@@ -8,7 +8,7 @@
         disableOnInteraction: false,
       }"
     >
-      <!-- <swiper-slide>
+      <swiper-slide>
         <div class="position-relative">
           <img src="/assets/images/hero-ebiz.png" class="w-100" />
           <div
@@ -31,16 +31,16 @@
             </div>
           </div>
         </div>
-      </swiper-slide> -->
-      <swiper-slide v-for="(item, index) in  hero_header">
-        <img :src="item.image" class="w-100" />
       </swiper-slide>
+      <!-- <swiper-slide v-for="(item, index) in  hero_header">
+        <img :src="item.image" class="w-100" />
+      </swiper-slide> -->
     </swiper>
   </section>
   <section class="mt-4">
     <div class="container">
       <div class="text-center font-size-24 font-weight-600 text-p-blue-24">
-        Why Choose Me
+        Why Choose Us
       </div>
       <div class="">
         <div class="row align-items-center">
@@ -288,10 +288,10 @@
               </div>
               <div>
                 <img src="/assets/images/partner-icon-white.png" />
-              </div>
+              </div
             </div>
           </div>
-        </div> -->
+        </div>-->
       </div>
     </div>
   </section>

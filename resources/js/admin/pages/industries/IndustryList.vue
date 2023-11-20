@@ -129,18 +129,6 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="supply_id">Supplier</label>
-                            <Field name="supply_id" as="select" multiple class="form-control" :class="{ 'is-invalid': errors.supply_id }" id="supply_id">
-                                <!-- <template v-for="(v, i) in dataSuppliers" :key="i"> -->
-                                    <option value="" disabled>Select a supplier</option>
-                                    <!-- <option :value="v.id">{{ v.title }}</option> -->
-                                    <option v-for="(v, i) in dataSuppliers" :key="i" :value="v.id" :selected="value && value.includes(v.id)">{{ v.title }}</option>
-                                <!-- </template> -->
-                            </Field>
-                            <span class="invalid-feedback">{{ errors.supply_id }}</span>
-                        </div>
-
-                        <div class="form-group">
                             <label for="image">Image</label>
                             <div v-if="editing">
                                 <br>
