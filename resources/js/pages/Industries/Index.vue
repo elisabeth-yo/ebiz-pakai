@@ -96,15 +96,7 @@
         <div class="row">
           <div class="col-12 bg-p-grey-43 p-5 text-center">
             <div class="font-weight-600 font-size-16">
-              Elevenia Biz and its integration with SAP Ariba has been a great
-              solution for meeting our global corporate goals. We’ve replaced
-              hundreds of one-time vendors, seamlessly brought Elevenia Biz
-              purchases into our existing polici es for compliance, identified
-              preferred suppliers with Guided Buying to maintain our global
-              contracts, and leverage robust analytics for budgeting and
-              forecasting, among other benefits. We look forward to growing our
-              partnership with Elevenia Biz in an effort to continually enhance
-              our procurement organization.”
+              Elevenia For Business will be a great solution for meeting your corporate goals. We have the solution to replace hundreds of one time vendors, and seamlessly brought your purchases into your existing policies for compliance , identified preferred suppliers with Guided Buying to maintain your global contracts, and leverage robust analytics for budgeting and forecasting, among other benefits. We look forward to growing our partnership in an effort to continually enhance your procurement solution.
             </div>
           </div>
         </div>
