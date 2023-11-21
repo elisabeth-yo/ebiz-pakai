@@ -24,7 +24,7 @@
               <div
                 class="text-p-white font-weight-400 font-size-lg-16 font-size-md-12 font-size-sm-10 font-size-6 mt-lg-3 mt-md-2"
               >
-                Elevenia.Biz realizes that all businesses and businesses have
+                Elevenia For Business realizes that all businesses have
                 different challenges. Therefore, we are here to bring various
                 solutions to answer all your business and business challenges.
               </div>
