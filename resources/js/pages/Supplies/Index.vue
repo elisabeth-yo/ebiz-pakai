@@ -3,7 +3,7 @@
     <HeroSupplies
       :title="'Discover a vast selection of ' + `${supply.title}` + ' supplies'"
       subTitle="Sustainable and innovative purchasing solutions"
-      image="/assets/images/hero-supplies.png"
+      :image="`${supply.header_image}`"
     />
     <section style="margin-top: 100px;">
       <div class="container">
