@@ -14,7 +14,7 @@
                     <img src="https://adminlte.io/themes/v3/dist/img/AdminLTELogo.png" class="img-circle elevation-2" alt="User Image">
                 </div>
                 <div class="info">
-                    <a href="#" class="d-block">{{ authStore.user.email }}</a>
+                    <router-link to="/admin/profile" class="d-block">{{ authStore.user.email }}</router-link>
                 </div>
             </div>
 

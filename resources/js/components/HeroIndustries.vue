@@ -13,7 +13,7 @@
           <div class="row align-items-center">
             <div class="">
               <div
-                class="font-weight-700 col-6 font-size-xl-36 font-size-lg-30 font-size-md-20 font-size-sm-18 font-size-14 text-p-black-7"
+                class="font-weight-700 col-6 font-size-xl-36 font-size-lg-30 font-size-md-20 font-size-sm-18 font-size-14 text-p-white"
               >
                 {{ title }}
               </div>

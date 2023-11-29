@@ -10,6 +10,7 @@ import PartnerList from '../pages/partners/PartnerList.vue';
 import HomeSettingList from '../pages/home_settings/HomeSettingList.vue';
 import ClientList from '../pages/clients/ClientList.vue';
 import useAuthStore from '../stores/auth';
+import Profile from '../pages/profile/Profile.vue';
 
 const routeForAdmin = [
     {
@@ -90,6 +91,15 @@ const routeForAdmin = [
         component: HomeSettingList,
         meta: {
             title: 'Admin | Home Settings'
+        }
+    },
+
+    {
+        path: '/admin/profile',
+        name: 'admin.profile',
+        component: Profile,
+        meta: {
+            title: 'Admin | Profile'
         }
     },
 ];

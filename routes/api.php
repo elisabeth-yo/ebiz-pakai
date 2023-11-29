@@ -10,7 +10,7 @@ use App\Http\Controllers\IndustryController;
 use App\Http\Controllers\PartnerController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\SupplyController;
-
+use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -24,11 +24,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
+Route::post('user/store', [ProfileController::class, 'store']);
 Route::group(['prefix' => 'admin', 'middleware' => []], function () {
     Route::post('login', [LoginController::class, 'login']);
     
     Route::group(['middleware' => ['auth:sanctum']], function () {    
+        Route::patch('user/update', [ProfileController::class, 'update']);
         Route::post('logout', [LoginController::class, 'logout']);
         
         Route::group(['prefix' => 'industries', 'as' => 'industries.', 'middleware' => []], function () {
@@ -108,5 +109,6 @@ Route::get('frontend/supplies/get/{supplyCode}', [FrontEndController::class, 'ge
 Route::get('frontend/contact-us/get', [FrontEndController::class, 'getContactUs']);
 
 Route::post('frontend/send-inquiry', [FrontEndController::class, 'sendInquiry'])->middleware([
-    'throttle:3,10'
+    'throttle:3,10',
+    'xss-sanitizer'
 ]);
